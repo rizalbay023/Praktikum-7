@@ -1,0 +1,12 @@
+1. Jadi, apa perbedaan stack dan queue?
+2. Kenapa head dan tail pertama kali harus =-1?
+
+Jawab
+1.perbedaannya adalah :
+- Kalau stack, data yang masuk pertama akan keluar terakhir dan data terakhir masuk akan keluar duluan
+- Kalau queue, data yang masuk pertama akan keluar pertama dan data yang terakhir masuk akan keluar terakhir
+
+2. Suatu program data diawali mulai dari angka 0, head dan tail harus memiliki nilai -1, karena jika nilai awalnya adalah 0
+maka ketika kita membuat data pertama otomatis data awal tersebut akan menjadi 1. Lain halnya dengan -1, jika nilai awal -1, maka data awal
+tersebut akan menjadi 0. Konsepnya adalah data pertama dari head dan tail ada 0. Untuk bisa mendapatkan 0, maka kita harus mengawalinya
+dengan -1, setelah itu kita increments menjadi 0.
